@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../assigment/assigment.csproj" />
+  <Project Path="GeometricFigure.csproj" />
+</Solution>
