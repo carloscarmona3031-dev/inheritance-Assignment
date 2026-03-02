@@ -21,7 +21,7 @@
         {
             return this.A + this.B + this.C + _d;
         }
-        public void ValidateD()
+        private void ValidateD()
         {
             if (_d < 0)
                 throw new Exception("El lado d debe ser mayor a 0");

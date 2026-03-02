@@ -10,8 +10,9 @@
             set { _a = value; }
         }
 
-        public Square(string name, double a) : base(name)
+        public Square(string name, double a) 
         {
+            Name = name;
             this.A = a;
         }
 
@@ -24,7 +25,7 @@
         {
             return 4 * _a;
         }
-        public Boolean ValidateA()
+        private Boolean ValidateA()
         {
             return true;
         }

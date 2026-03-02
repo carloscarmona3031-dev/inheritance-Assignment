@@ -8,12 +8,18 @@
         public double D1 
         {
             get { return _d1; } 
-            set { _d1 = value; } 
+            set {
+                ValidateD1(value);
+                _d1 = value; 
+                } 
         }
         public double D2
         {
             get { return _d2; }
-            set { _d2 = value; }
+            set {
+                ValidateD2(value);
+                _d2 = value; 
+                }
         }
         public Rhombus(string name, double a, double d1, double d2) : base(name,a)
         {
@@ -27,6 +33,18 @@
         public override double GetPerimeter()
         {
             return 4 * this.A ;
+        }
+
+        private void ValidateD1(double value)
+        {
+            if (value <= 0)
+                throw new ArgumentException($"D1 no puede ser {value}.");
+        }
+
+        private void ValidateD2(double value)
+        {
+            if (value <= 0)
+                throw new ArgumentException($"D2 no puede ser {value}.");
         }
     }
 }

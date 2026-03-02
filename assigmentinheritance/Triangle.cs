@@ -28,12 +28,12 @@
         {
             return this.A + this.B + _c;
         }
-        public void ValidateC()
+        private void ValidateC()
         {
             if (this.C <= 0)
                 throw new Exception("El lado c debe ser mayor a 0");
         }
-        public void Validateh()
+        private void Validateh()
         {
             if (_h <= 0)
                 throw new Exception("La altura h debe ser mayor a 0");

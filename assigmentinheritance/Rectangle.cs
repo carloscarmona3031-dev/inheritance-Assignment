@@ -28,7 +28,7 @@ namespace geometricfig
         {
             return 2 *(this.A + _b);
         }
-        public Boolean ValidateB()
+        private Boolean ValidateB()
         {
             return true;
         }

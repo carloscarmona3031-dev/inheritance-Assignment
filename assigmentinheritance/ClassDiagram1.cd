@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="geometricfig.Circle">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAACAAEAAAAQA=</HashCode>
+      <FileName>circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.GeometricFigure">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>geometricfiguresp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Kite">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>kite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Parallelogram">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAGEAAAAA=</HashCode>
+      <FileName>parallelogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Rectangle">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Rhombus">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAAAEAAAAAA=</HashCode>
+      <FileName>Rhombus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Square">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Trapeze">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAA=</HashCode>
+      <FileName>Trapeze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="geometricfig.Triangle">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAmEABAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

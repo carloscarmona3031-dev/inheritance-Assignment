@@ -4,10 +4,13 @@
     {
         private double _b;
 
-        private double B
+        public double B
         {
           get {return _b; }
-            set { _b = value; }
+            set {
+                ValidateB(value);
+                _b = value;
+                }
         }
         public Kite(string name, double a, double b, double d1, double d2) : base(name, a, d1, d2)
         {
@@ -20,6 +23,11 @@
         public override double GetPerimeter()
         {
             return 2 * (this.A + this.B);
+        }
+        private void ValidateB(double value)
+        {
+            if (value <= 0)
+                throw new ArgumentException($"lado B no puede ser {value}.");
         }
     }
 }

@@ -20,7 +20,7 @@
         {
             return 2 * (this.A + this.B);
         }
-        public Boolean ValidateH()
+        private Boolean ValidateH()
         {
             return true;
         }

@@ -7,8 +7,9 @@
             get { return _r; } 
             set { _r = value; } 
         }
-        public Circle(string name, double r) : base(name)
+        public Circle(string name, double r)
         {
+            Name=name;
             R = r;
         }
 
@@ -22,7 +23,7 @@
             return 2 * Math.PI * _r;
         }
 
-        public void ValidateRadius()
+        private void ValidateR()
         {
             if (_r <= 0)
                 throw new ArgumentException("El radio debe ser mayor a 0");
